@@ -1,8 +1,9 @@
 (function() {
-'use'
-  angular.module('myFirstApp', [])
+'use strict';
 
-  controller('myFirstController', function () {
+angular.module('myFirstApp', [])
 
+  controller('MyFirstController', function ($scope) {
+    $scope.name = "Sudheer";
   });
 })();
